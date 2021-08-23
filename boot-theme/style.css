@@ -93,7 +93,7 @@ header {
     width: 250px;
     position: fixed;
     z-index: 0;
-    top: 120px;
+    top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
