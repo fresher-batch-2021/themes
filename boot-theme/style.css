@@ -52,7 +52,7 @@ header {
     float:left;
     
 }
-.brandLogo {
+.navbar-brand-logo {
     margin: 20px; 
     background-color: red;
     /* float: left; */
@@ -82,7 +82,7 @@ header {
    margin-top: 10px;
    margin-left: 10px;
 }
-.pull-right {
+.navbar-pull-right {
     float: right;
     margin-right: 10px;
     margin-top: 10px;
@@ -126,8 +126,9 @@ header {
 .page {
     /* background-color: white; */
     width: 100%;
-    margin: auto auto auto 18%;
+    margin: auto auto auto 20%;
     z-index: 0;
+    padding-bottom: 100px;
 }
 .page-bar {
     position: fixed;
@@ -164,7 +165,7 @@ header {
  
   .page-header {
       background-color: #716F81;
-      margin: 13% 2.5%;
+      margin: 13% auto;
       padding: 2%;
       /* z-index: 0; */
   }
@@ -847,6 +848,7 @@ ul.breadcrumb li a:hover {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
+ 
 
 }
 
