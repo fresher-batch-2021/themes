@@ -46,6 +46,10 @@ header {
     z-index: 1;
 }
 
+.navbar{
+    width: 100%;
+}
+
 .navbar-brand {
     /* padding: 50px auto 0; */
     display: inline-block;
