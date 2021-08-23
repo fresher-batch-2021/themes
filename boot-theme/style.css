@@ -93,7 +93,7 @@ header {
     width: 250px;
     position: fixed;
     z-index: 0;
-    top: 90px;
+    top: 120px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -101,6 +101,9 @@ header {
     /* margin: 50px auto auto auto; */
   }
   
+  .sidebar li {
+      list-style-type: none;
+  }
   .sidebar a {
     
     padding: 8px 8px 6px 16px;
