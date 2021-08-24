@@ -1268,3 +1268,94 @@ button.close {
 }
 
 /* --------------------------------Modal Ends----------------------------------- */
+
+/* -----------------------------------Dashboard Starts----------------------------- */
+
+.dashboard-stat{
+    display: inline-block;
+    width: 10%;
+    height: 8%;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.details {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: blueviolet; */
+    margin: 7% 6% auto auto;
+    float: right;
+}
+.number {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: blue; */
+    margin: 7% 6% auto auto;
+    font-size: 20px;
+  
+}
+.dashboard-stat strong {
+    font-size: 12px;
+}
+.red-intense {
+    background-color: #E35B5A;
+}
+.purple-plum {
+    background-color: #8775A7;
+}
+.green-haze {
+    background-color: #44B6AE;
+}
+.blue-madison {
+    background-color: #578EBE;
+}
+.d-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.d-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.d-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.d-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.d-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.d-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.d-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+
+.d-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+/* ------------------------------------------Dashboard Ends------------------------- */
