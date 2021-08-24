@@ -743,6 +743,25 @@ table .table-warning {
 }
 
 /* ------------------------------Button-End--------------------------------- */
+/* -----------------------------Anchor link start-------------- */
+
+.a-link{
+    display: inline-block;
+    font-weight: 400;
+    color: #007bff;
+    background-color: #d1ecf1;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: .3rem .75rem;
+    
+}
+
+
+
+/* --------------------------Anchor link End-------------------- */
+
 
 /* ------------------------Alerts-Start------------------------------  */
 
@@ -909,18 +928,6 @@ ul.breadcrumb li a:hover {
     padding-bottom: 1rem;
     color: #580373;
   }
- /* input[type=text] {
-      background-color: #FFFFFF;
-      padding: 10px;
-      width: 90%;
-      height: 20px;
-      margin: 10px 0px;
-      border: 1px solid #c6d2d9;
-      border-radius: 2px;
-      color: #333;
-      background-clip: padding-box;
-      font-size: 14px;
-  } */
 
  .form-control {
     display: block;
