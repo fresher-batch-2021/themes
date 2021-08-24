@@ -766,6 +766,7 @@ table .table-warning {
 .a-primary-hover:hover {
     background-color: #0069D9;
     text-decoration: none;
+    color: #FFFFFF;
 }
 .a-secondary {
     color: #383d41;
@@ -776,16 +777,19 @@ table .table-warning {
 
     background-color: #5A6268;
     text-decoration: none;
+    color: #FFFFFF;
 }
 .a-success {
     color: #155724;
     background-color: #d4edda;
     border-color: #c3e6cb;
+    
 }
 .a-success-hover:hover {
 
     background-color: #218838;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .a-danger {
@@ -797,6 +801,7 @@ table .table-warning {
 
     background-color: #C82333;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .a-warning {
@@ -808,6 +813,7 @@ table .table-warning {
 
     background-color: #E0A800;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .a-info {
@@ -830,6 +836,7 @@ table .table-warning {
 
     background-color: #E2E6EA;
     text-decoration: none;
+    color: #000;
 }
 
 .a-dark {
@@ -841,6 +848,7 @@ table .table-warning {
 
     background-color: var(--gray-dark);
     text-decoration: none;
+    color: #FFFFFF;
 }
 /* --------------------------Anchor link End-------------------- */
 
