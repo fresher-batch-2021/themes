@@ -46,7 +46,7 @@ body {
 header {
     width: 100%;
     /* height: 100px; */
-    background-color: rgb(0, 0, 0);
+    background-color: #2B140B;
     position: fixed;
     z-index: 1;
 }
@@ -63,7 +63,6 @@ header {
 
 .navbar-brand-logo {
     margin: 20px;
-    background-color: red;
     /* float: left; */
 }
 
@@ -1778,4 +1777,42 @@ select[size] {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     margin-left: 10%;
+}
+
+
+/* ---------------------------Tool tip ends------------------ */
+
+
+/* -----------------------Favourite icon----------------- */
+
+#page {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "head head " "nav  main" "nav  foot";
+    grid-template-rows: 70px 1fr 30px;
+    grid-template-columns: 200px 1fr;
+}
+
+#page>header {
+    grid-area: head;
+    background-color: #FFFFFF;
+}
+
+#page>nav {
+    grid-area: nav;
+    background-color: #2276E3;
+    border-radius: 1%;
+}
+
+#page>main {
+    grid-area: main;
+    background-color: #F5F5F5;
+    border-radius: 1%;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: #363636;
+    border-radius: 1%;
 }
