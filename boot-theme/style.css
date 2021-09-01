@@ -168,7 +168,7 @@ table {
 
 .table td,
 .table th {
-    padding: .15rem .15rem;
+    padding: 1rem 1rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6
 }
