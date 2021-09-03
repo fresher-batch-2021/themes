@@ -1606,7 +1606,6 @@ select[size] {
 /* --------------------Badge starts-------------------- */
 
 .badge {
-    margin: 30%;
     background-color: var(--primary);
     color: white;
     text-decoration: none;
