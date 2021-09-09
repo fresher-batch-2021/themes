@@ -1632,7 +1632,7 @@ select[size] {
 /* ---------------------Badges Ends----------------- */
 
 /* ------------------Accordian starts------------------ */
-
+/* 
 input {
     position: absolute;
     opacity: 0;
@@ -1646,8 +1646,9 @@ input {
 }
 .row .col:last-child {
     margin-left: 1em;
-}
+} */
 /* Accordion styles */
+/* 
 .tabs {
     border-radius: 8px;
     overflow: hidden;
@@ -1665,7 +1666,7 @@ input {
     background: #2c3e50;
     font-weight: bold;
     cursor: pointer;
-   /* Icon */
+ 
 }
 .tab-label:hover {
     background: #1a252f;
@@ -1704,6 +1705,6 @@ input:checked + .tab-label::after {
 input:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
-}
+} */
 
 /* ---------------------Accordion ends----------------------- */
