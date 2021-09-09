@@ -1633,11 +1633,11 @@ select[size] {
 
 /* ------------------Accordian starts------------------ */
 
-input {
+/* input {
     position: absolute;
     opacity: 0;
     z-index: -1;
-}
+} */
 .row {
     display: flex;
 }
