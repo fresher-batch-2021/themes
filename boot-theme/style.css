@@ -1631,30 +1631,31 @@ select[size] {
 
 /* ---------------------Badges Ends----------------- */
 
-/* ------------------Accordian starts------------------ */
-/* 
-input {
+/* ------------------Accordion starts------------------ */
+.accordion-row input {
     position: absolute;
     opacity: 0;
     z-index: -1;
-}
-.row {
+} 
+.accordion-row {
     display: flex;
 }
-.row .col {
+.accordion-row .acc-col {
     flex: 1;
-}
-.row .col:last-child {
     margin-left: 1em;
-} */
+    margin-right: 1em;
+}
+.accordion-row .acc-col:last-child {
+    margin-left: 1em;
+} 
 /* Accordion styles */
-/* 
-.tabs {
+ 
+.acc-tabs {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
 }
-.tab {
+.acc-tab {
     width: 100%;
     color: white;
     overflow: hidden;
@@ -1663,7 +1664,7 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: #2c3e50;
+    background: var(--info);
     font-weight: bold;
     cursor: pointer;
  
@@ -1681,7 +1682,7 @@ input {
 .tab-content {
     max-height: 0;
     padding: 0 1em;
-    color: #2c3e50;
+    color: var(--info);
     background: white;
     transition: all 0.35s;
 }
@@ -1690,21 +1691,21 @@ input {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: #2c3e50;
+    background: var(--info);
     cursor: pointer;
 }
 .tab-close:hover {
     background: #1a252f;
 }
-input:checked + .tab-label {
+.accordion-row input:checked + .tab-label {
     background: #1a252f;
 }
-input:checked + .tab-label::after {
+.accordion-row  input:checked + .tab-label::after {
     transform: rotate(90deg);
 }
-input:checked ~ .tab-content {
+.accordion-row  input:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
-} */
+} 
 
 /* ---------------------Accordion ends----------------------- */
